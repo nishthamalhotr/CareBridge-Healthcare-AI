@@ -1,0 +1,11 @@
+flowchart TD
+    A[User] --> B[Streamlit intake form]
+    B --> C[Structured fields]
+    C --> D[Transparent warning-sign rules]
+    D --> E[Escalation message with limitations]
+    C --> F[Visit-summary generator]
+    E --> G[Results shown in browser]
+    F --> G
+    G --> H[User chooses whether to download/share]
+    I[Pytest suite] --> D
+    I --> F
