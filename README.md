@@ -5,14 +5,13 @@
 > **CareBridge makes the conversation easier to prepare for—not the medical decision.** It turns a person's own notes into a structured visit-preparation summary and presents explicit, limited warning-sign messaging without claiming that a person is safe.
 
 ## Team details
-- Project lead: [Add your name]
-- Team members: [Add names/roles or “Individual project”]
-- Contact: [Add public GitHub profile/email]
+- Project lead: Aman Gupta
+- Team members: Nishtha Malhotra, Amogh Gupta, Abhiyansh Jain
 
 ## College / Incubator information
-- Institution: [Add college/institution]
-- Incubator/program: [Add incubator or “Not applicable”]
-- Location: [City, State, Country]
+- Institution: Guru Gobind Singh Indraprastha University,USAR
+- Incubator/program: IPU EDC Incubation Centre
+- Location: Delhi
 
 ## Project title
 CareBridge: Healthcare Access and Follow-up Assistant
@@ -105,16 +104,14 @@ docker run --rm -p 8501:8501 carebridge
 - PDF diagram: `docs/architecture.pdf`
 
 ## Demo video (mandatory for submission)
-Upload a **15–20 minute unlisted YouTube demo** and replace this placeholder with the real URL:
-- Demo video: **TODO — add unlisted YouTube URL**
+- Demo video: https://youtu.be/x2AXKnBO-g8
 - Suggested script: `docs/demo_script.md`
 
 ## Open-source license
 MIT License — see `LICENSE`.
 
 ## Presentation (mandatory for submission)
-- Slide outline: `docs/presentation_outline.md`
-- Export to PDF/PPT and add the actual file/link here: **TODO — add presentation PDF/PPT**
+- Slide outline: https://docs.google.com/presentation/d/1Ioe61tB0YoTByGWvJTS-ZtE_5IJvliB8/edit?usp=sharing&ouid=108937792523610505956&rtpof=true&sd=true
 
 ## Public repository checklist
 - [ ] Team details completed.
