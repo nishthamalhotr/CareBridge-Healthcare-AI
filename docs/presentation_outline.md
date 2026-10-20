@@ -22,19 +22,20 @@ Team: [names] | Institution: [college/incubator]
 1. Load the explicitly fictional sample.
 2. Review duration, self-described severity, and optional context.
 3. Generate, edit, and download the visit-preparation summary.
-4. Demonstrate a simulated warning-sign selection, explain the limits, then clear the form.
+4. If Ollama is installed, demonstrate the optional local AI note organizer; otherwise show setup instructions.
+5. Demonstrate a simulated warning-sign selection, explain the limits, then clear the form.
 
 ## Slide 6 — Architecture
 Show `architecture.pdf` or render `architecture.mmd`.
 
 ## Slide 7 — Technical stack
-Python, Streamlit, deterministic rules, Pytest, Docker.
+Python, Streamlit, deterministic rules, optional local Ollama model, Pytest, Docker.
 
 ## Slide 8 — AI/ML approach
-Current version intentionally has no ML model. Future ML requires governance, approved data, validation, bias assessment, privacy/security review, and clinician oversight.
+The optional Ollama note organizer formats user-authored narrative into an unverified draft; it does not diagnose, assess urgency, or recommend treatment. The warning-sign checks remain explicit deterministic rules. No model is bundled, and no cloud AI API is called.
 
 ## Slide 9 — Evaluation and limitations
-Automated tests cover all currently listed warning signs, selections in combination, conservative fallback wording, and summary fields. The app is not clinically validated; usability, accessibility, false-negative risk, privacy, and equity need further evaluation. Hosted deployments process entries on their server.
+Automated tests cover all currently listed warning signs, selections in combination, conservative fallback wording, summary fields, and local AI request behavior. AI output can be wrong and is not clinically validated; usability, accessibility, false-negative risk, privacy, and equity need further evaluation. Hosted deployments process entries on their server.
 
 ## Slide 10 — Roadmap
 Expert review, accessibility/security review, formal evaluation plan, and only then consideration of validated models.

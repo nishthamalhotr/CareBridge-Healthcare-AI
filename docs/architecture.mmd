@@ -7,5 +7,10 @@ flowchart TD
     E --> G[Results shown in browser]
     F --> G
     G --> H[User chooses whether to download/share]
-    I[Pytest suite] --> D
-    I --> F
+    C --> I{User requests local note organization?}
+    I -->|Yes: narrative fields only| J[Ollama on app host loopback]
+    J --> K[Unverified draft for user review]
+    K -. never merged automatically .-> G
+    L[Pytest suite] --> D
+    L --> F
+    L --> J
